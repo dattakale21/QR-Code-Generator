@@ -19,6 +19,7 @@ body {
     transform: translate(-50%, -50%);
     background: #ffefef;
     border-radius: 1.4rem;
+    border:2px solid rgb(246, 196, 196);
 }
 
 h3 {
@@ -60,6 +61,7 @@ input:hover {
     margin: 1rem 0;
     font-weight: 500;
     font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 button:hover {
@@ -78,7 +80,9 @@ button:hover {
     width: 100%;
     padding: 0.2rem;
     background-color: #faecec;
+    margin-bottom: 4rem;
 }
+
 
 #imgbox.show-img {
     max-height: 7rem;
