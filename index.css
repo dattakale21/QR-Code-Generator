@@ -85,7 +85,6 @@ button:hover {
     margin-bottom: 4rem;
 }
 
-
 #imgbox.show-img {
     max-height: 7rem;
     margin: 0.11rem auto;
@@ -115,7 +114,6 @@ button:hover {
     font-size: 150%;
     color: black;
 }
-
 
 #foot {
     position: absolute;
@@ -156,7 +154,6 @@ button:hover {
     }
 }
 
-
 /* -------------------------------- media queries ------------------------------ */
 
 @media(max-width:1440px) {
@@ -188,8 +185,6 @@ button:hover {
     }
 
 }
-
-
 
 @media(max-width:1440px) {
     #imgbox.show-img {
@@ -265,12 +260,10 @@ button:hover {
         border-radius: 0.3rem;
         overflow: hidden;
         transition: max-height 0.5s;
-        /* margin-bottom: 1rem; */
     }
 }
 
 @media(max-width:321px) {
-
     #foot h2 {
         font-size: 60%;
     }
@@ -278,7 +271,6 @@ button:hover {
     .container h3 {
         font-size: 250%;
     }
-
 }
 
 @media(max-width:450px) and (max-height:950px) {
@@ -305,7 +297,6 @@ button:hover {
 }
 
 @media(max-width:413px) and (max-height:913px) {
-
     #imgbox img {
         width: 100%;
         padding: 0.2rem;
@@ -324,7 +315,6 @@ button:hover {
     }
 
 }
-
 
 @media(max-width:950px) and (max-height:450px) {
     html {
@@ -350,5 +340,10 @@ button:hover {
     }
 }
 
+@media(max-width:290px) {
+    #foot h2 {
+        font-size: 0.5rem;
+    }
+}
 
 /* Code By - DATTA KALE */
