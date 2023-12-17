@@ -70,12 +70,11 @@ button:hover {
 
 #imgbox {
     width: 7rem;
-    max-height: 0;
+    min-height: 0;
     border-radius: 0.3rem;
     overflow: hidden;
     transition: max-height 0.5s;
     width: 100%;
-
 }
 
 #imgbox img {
@@ -153,6 +152,7 @@ button:hover {
         transform: translateX(0);
     }
 }
+
 
 /* -------------------------------- media queries ------------------------------ */
 

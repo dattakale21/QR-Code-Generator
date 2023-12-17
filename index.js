@@ -1,4 +1,3 @@
-
 let qrtext = document.querySelector('#qrtext');
 let imgbox = document.querySelector('#imgbox');
 let qrlimg = document.querySelector('#qrlimg');
@@ -11,7 +10,9 @@ function generateQR() {
     
     else {
         qrtext.classList.add("error");
+        qrtext.style.borderColor='red';
         setTimeout(() => {
+            qrtext.style.borderColor='#494eea';
             qrtext.classList.remove("error");
         }, 1000);
     }
