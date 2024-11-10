@@ -95,8 +95,8 @@ button:hover {
 }
 
 #qrlimg {
-    width: 70%;
-    height: 70%;
+    width: 40%;
+    height: 40%;
 }
 
 .error {
@@ -166,15 +166,22 @@ button:hover {
         width: 100%;
         margin: 0 auto;
     }
-
-    #imgbox img {
-        width: 57%;
-        padding: 0.2rem;
-        background-color: #faecec;
-        margin: 0 auto;
-        margin-bottom: 0.2rem;
+    #imgbox {
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin-right: -4rem;
+        background-color: #faecec;
+        padding: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    #imgbox img {
+        width: 30%;
+        /* padding: 0.2rem; */
+        background-color: #faecec;
+        /* margin-bottom: 0.2rem; */
+        align-items: center;
+        margin-top:2rem;
+        /* margin-right: -4rem; */
     }
 
     #imgbox.show-img {
@@ -237,10 +244,10 @@ button:hover {
         width: 56%;
         padding: 0.2rem;
         background-color: #faecec;
-        margin: 0 auto;
+        margin: 0 0;
         margin-bottom: 0.2rem;
         align-items: center;
-        margin-right: -4rem;
+        /* margin-right: -4rem; */
     }
 
     #imgbox.show-img {
@@ -298,20 +305,20 @@ button:hover {
 
 @media(max-width:413px) and (max-height:913px) {
     #imgbox img {
-        width: 100%;
-        padding: 0.2rem;
+        width: 80%;
+        /* padding: 0.2rem; */
         background-color: #faecec;
         margin: 0 auto;
         margin-bottom: 0.2rem;
-        align-items: center;
-        margin-right: -4rem;
+        /* align-items: center; */
+        /* margin-right: -4rem; */
     }
 
     #imgbox.show-img {
         max-height: 14rem;
         border: 0.11rem solid rgb(252, 248, 248);
         margin: 0.11rem auto;
-        margin-right: 32%;
+        /* margin-right: 32%; */
     }
 
 }
