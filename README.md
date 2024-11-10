@@ -1,3 +1,4 @@
+![Screenshot](screenshot.png)
 
 
 QR Code Generator
